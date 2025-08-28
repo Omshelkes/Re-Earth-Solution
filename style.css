@@ -129,5 +129,9 @@ width:100%; padding:8px; border:1px solid #ddd; border-radius:6px;
     text-align: center;
 }
 
+.product {
+    text-align: center; /* Make sure text inside each product is centered */
+}
+
 
 
