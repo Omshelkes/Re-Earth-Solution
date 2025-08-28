@@ -134,6 +134,30 @@ width:100%; padding:8px; border:1px solid #ddd; border-radius:6px;
 }
 
 
+/* Product grid wrap with text-align center */
+.product-grid {
+    text-align: center;       /* center all content inside */
+}
+
+/* Each product card inline-block for horizontal layout */
+.product {
+    display: inline-block;    /* allows multiple products in a row */
+    vertical-align: top;
+    width: 250px;
+    margin: 15px;             /* space between products */
+    text-align: center;       /* center text & image */
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.product img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;           /* center image */
+}
+
 
 
 
