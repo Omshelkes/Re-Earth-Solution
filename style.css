@@ -73,12 +73,6 @@ margin-top:16px;
 .product{
 background:#fff; padding:14px; border-radius:8px; border:1px solid #eee;
 }
-.product-grid {
-    display: flex;               /* flex layout for product row */
-    justify-content: center;     /* horizontally center all products */
-    flex-wrap: wrap;             /* wrap to next line if needed */
-    gap: 30px;                   /* space between products */
-}
 
 
 /* Contact */
@@ -138,6 +132,7 @@ width:100%; padding:8px; border:1px solid #ddd; border-radius:6px;
 .center-text {
     text-align: center;
 }
+
 
 
 
