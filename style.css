@@ -128,28 +128,34 @@ width:100%; padding:8px; border:1px solid #ddd; border-radius:6px;
 .product-card, .hero {
     text-align: center;
 }
+
+
+
+
+
+
+
 /* Sagla text ani content center la */
+/* Center-align content */
 .container {
     text-align: center;
 }
 
-/* Products ek line madhe ani spacing sathi */
 .product-grid {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* multiple rows madhe jatil if needed */
-    gap: 30px;       /* products madhe space */
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
-/* Individual product styling */
 .product {
-    max-width: 250px;  /* product width fix */
-    text-align: center; /* product madhe text center la */
+    max-width: 250px;
+    text-align: center;
 }
 
 .product img {
     display: block;
-    margin: 0 auto;   /* image center la */
+    margin: 0 auto;
 }
 
 
