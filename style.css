@@ -128,4 +128,31 @@ width:100%; padding:8px; border:1px solid #ddd; border-radius:6px;
 .product-card, .hero {
     text-align: center;
 }
+/* all text center aligment*/
+.product {
+  display: flex;
+  align-items: center;        /* vertical alignment */
+  justify-content: space-between;
+  gap: 50px;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.product-text {
+  flex: 1;
+  text-align: left;
+}
+
+.product-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;    /* image horizontally centered in its half */
+}
+
+.product-image img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
 
